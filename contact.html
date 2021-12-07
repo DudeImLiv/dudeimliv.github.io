@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Contact | Liv.ing Design</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Olivia Tubby">
+		<meta name="description" content="Freelance graphic designer based in Scottsdale, AZ, offering logo design, illustration, brand identity, web design, advertising & editorial, stationary & more.">
+		<link href="contactstyles.css" rel="stylesheet">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<img src="images/bullSkull2.png" alt="Skull of Bull" height="300px">
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="gallery.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+			<main>
+				<h1 id="header">Contact Us</h1>
+				<p id="main">If you have looked around and had your interest picqued,<br> drop us a line & we will get back to you.</p>
+				<div id="form">
+					<form method="post" action="https://formspree.io/f/xgedewrk">
+                        <label for="myName">Name</label>
+                        <input type="text" name="myName" id="myName" placeholder="Enter first and last name." required>
+
+                        <label for="myEmail">Email</label>
+                        <input type="email" name="myEmail" id="myEmail" placeholder="you@domain.com" required>
+
+                        <label id="label-block">Comments</label>
+                        <textarea name="myComments" id="myComments" rows="4" cols="40"></textarea>
+
+                        <section id="myButtons">
+                            <!-- <input type="reset" id="myReset" value="Reset Me">  -->
+                            <input type="submit" id="mySubmit" value="Submit Me">
+                        </section>
+                    </form>
+				</div>
+			</main>	
+			
+			<footer>
+				Copyright &copy;2021 by Liv.ing Design<br>
+			</footer>
+		</div><!--closes wrapper-->		
+	</body>
+</html>
